@@ -1,0 +1,8 @@
+package com.bilal.CollectionApp;
+
+public class Vehicles {
+	
+	private String name;
+	private int no;
+
+}

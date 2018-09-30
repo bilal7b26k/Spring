@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="18.Autowire-annotation_ByName">
+        <property name="context-root" value="18.Autowire-annotation_ByName"/>
+    </wb-module>
+</project-modules>

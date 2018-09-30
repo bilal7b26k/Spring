@@ -1,0 +1,8 @@
+package com.bilal.CarApp;
+
+public class Tyre {public Tyre() {
+	System.out.println("Tyre Object created");
+
+}
+
+}

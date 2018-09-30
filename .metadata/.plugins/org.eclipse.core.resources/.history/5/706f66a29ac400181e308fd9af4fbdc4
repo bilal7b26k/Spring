@@ -1,0 +1,7 @@
+package com.bilal.DrinkApp;
+
+public class Drink {
+	private String name;
+	private Brand brand;
+
+}

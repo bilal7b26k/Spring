@@ -1,0 +1,9 @@
+package com.bilal.CollectionApp;
+
+import java.util.List;
+
+public class Footballers {
+	String name;
+	private List<Teams> team;
+
+}

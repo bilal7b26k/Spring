@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Medicine.java&apos; to &apos;spring.xml&apos;&#x0D;&#x0A;- Original project: &apos;14.@Required&apos;&#x0D;&#x0A;- Destination element: &apos;spring.xml&apos;&#x0D;&#x0A;- Original element: &apos;com.bilal.MedicineApp.Medicine.java&apos;" description="Copy compilation unit" element1="/src&lt;com.bilal.MedicineApp{Medicine.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1538302060425" target="/14.@Required/src/spring.xml" units="1" version="1.0"/>
+</session>

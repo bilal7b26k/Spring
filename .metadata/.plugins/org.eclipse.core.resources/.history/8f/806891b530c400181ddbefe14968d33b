@@ -1,0 +1,39 @@
+package com.bilal.CollectionApp;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+public class Footballers {
+	
+	private String name;
+	private List<Teams> team;
+	private Set<Vehicles> vehicle;
+
+	
+	//	private Map<Object, Object>  
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public List<Teams> getTeam() {
+		return team;
+	}
+	public void setTeam(List<Teams> team) {
+		this.team = team;
+	}
+	public Set<Vehicles> getVehicle() {
+		return vehicle;
+	}
+	public void setVehicle(Set<Vehicles> vehicle) {
+		this.vehicle = vehicle;
+	}
+	
+	
+	
+	
+	
+
+}

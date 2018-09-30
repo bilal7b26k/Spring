@@ -1,0 +1,15 @@
+package com.bilal.LifeApp;
+
+public class Life {
+	
+	private String message;
+	
+	public void initMe() {
+		System.out.println("running init()");
+	}
+	
+	public void destroyMe() {
+		System.out.println("destroying()");
+	}
+
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;18.Autowire-annotation_ByName&apos; to &apos;18.Autowire_annotation&apos;" description="Rename resource &apos;18.Autowire-annotation_ByName&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/18.Autowire-annotation_ByName" name="18.Autowire_annotation" stamp="1538322936515" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;19.@Qualifer&apos; to &apos;19.Autowire_@Qualifer&apos;" description="Rename resource &apos;19.@Qualifer&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/19.@Qualifer" name="19.Autowire_@Qualifer" stamp="1538323182632" updateReferences="true"/>
+</session>

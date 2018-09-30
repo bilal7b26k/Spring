@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+	
+
+	<bean id="country"  class="com.bilal.IndiaApp.Country">
+		<property name="state">
+		
+			<list>
+				<ref bean="Object1"/>
+				<ref bean="Object2"/>
+				<ref bean="Object3"/>
+			</list>
+			
+		</property>
+	</bean>
+	
+	<bean id="Object1" class="com.bilal.IndiaApp.States">
+		<property name="code" value="70000"></property>
+		<property name="name" value="WestBengal"></property>
+		<property name="capital" value="Kolkata"></property>
+	</bean>
+	<bean id="Object2" class="com.bilal.IndiaApp.States">
+		<property name="code" value="40000"></property>
+		<property name="name" value="Maharastra"></property>
+		<property name="capital" value="Mumbai"></property>
+	</bean>
+	<bean id="Object3" class="com.bilal.IndiaApp.States">
+		<property name="code" value="60000"></property>
+		<property name="name" value="Bihar"></property>
+		<property name="capital" value="Bhagalpur"></property>
+	</bean>
+
+
+
+
+
+</beans>

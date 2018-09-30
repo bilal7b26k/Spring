@@ -1,0 +1,9 @@
+package com.bilal.BikeApp;
+
+public class Bike {
+	private String[] name;
+	
+	
+	
+
+}

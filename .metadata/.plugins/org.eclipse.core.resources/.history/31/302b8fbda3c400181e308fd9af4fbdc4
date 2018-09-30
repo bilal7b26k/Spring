@@ -1,0 +1,12 @@
+package com.bilal.ShapeApp;
+
+public class Shape {
+	private String name;
+	private Triangle triangle;
+	
+	
+	public Shape() {
+		System.out.println("running no-arg constructor");
+	}
+
+}

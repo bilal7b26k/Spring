@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+	
+
+	<bean id="footballers"  class="com.bilal.CollectionApp.Footballers">
+		<property name="name" value="CristianoRonldo"></property>
+		<property name="team">
+			<list>
+				<ref bean ="team1"/>
+				<ref bean ="team2"/>
+				<ref bean ="team3"/>
+			</list>
+			</property>
+			<property name="vehicle">
+			<set>
+			<ref bean="vehicle1"/>
+			<ref bean="vehicle2"/>
+			</set>
+		</property>
+	</bean>
+	
+	<bean id="team1" class="com.bilal.CollectionApp.Teams">
+		<property name="name" value="SportingCp"></property>
+		<property name="no" value="9"></property>
+	</bean>
+	
+	<bean id="team2" class="com.bilal.CollectionApp.Teams">
+		<property name="name" value="ManchesterUnited"></property>
+		<property name="no" value="7"></property>
+	</bean>
+	
+	<bean id="team3" class="com.bilal.CollectionApp.Teams">
+		<property name="name" value="RealMadrid"></property>
+		<property name="no" value="7"></property>
+	</bean>
+	
+	<bean id="vehicle1" class="com.bilal.CollectionApp.Vehicles">
+		<property name="name" value="Buggati veron"></property>
+		<property name="no" value="7777"></property>
+	</bean>
+	<bean id="vehicle2" class="com.bilal.CollectionApp.Vehicles">
+		<property name="name" value="Audi A8"></property>
+		<property name="no" value="1237"></property>
+	</bean>
+	
+		
+
+
+
+
+
+</beans>

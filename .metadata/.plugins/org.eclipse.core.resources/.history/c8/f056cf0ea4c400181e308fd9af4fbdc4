@@ -1,0 +1,16 @@
+package com.bilal.ShapeApp;
+
+public class Triangle {
+	private String area;
+	private String parameter;
+	
+	public Triangle() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Triangle(String area,String parameter) {
+		this.area=area;
+		this.parameter=parameter;
+	}
+
+}

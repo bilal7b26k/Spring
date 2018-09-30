@@ -1,0 +1,10 @@
+package com.bilal.CarApp;
+
+public class Car {
+
+	public Car() {
+		System.out.println("Car Object Created !!!");
+	}
+
+
+}

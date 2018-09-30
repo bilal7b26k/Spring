@@ -1,0 +1,21 @@
+package com.bilal.MobileApp;
+
+public class Mobile {
+	private String name;
+	private Series series;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Series getSeries() {
+		return series;
+	}
+	public void setSeries(Series series) {
+		this.series = series;
+	}
+	
+	
+
+}

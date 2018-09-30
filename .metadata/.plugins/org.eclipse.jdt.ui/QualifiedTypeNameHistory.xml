@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.BeanFactory"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.xml.XmlBeanFactory"/>
+<fullyQualifiedTypeName name="org.springframework.core.io.ClassPathResource"/>
+<fullyQualifiedTypeName name="com.bilal.IndiaApp.Country"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.applet.AppletContext"/>
+<fullyQualifiedTypeName name="com.bilal.CollectionApp.Footballers"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
+<fullyQualifiedTypeName name="com.bilal.LifeCycleApp.BeanLifeCycle"/>
+<fullyQualifiedTypeName name="org.springframework.context.ConfigurableApplicationContext"/>
+<fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+<fullyQualifiedTypeName name="javax.annotation.PreDestroy"/>
+<fullyQualifiedTypeName name="com.bilal.CarApp.Car"/>
+<fullyQualifiedTypeName name="com.bilal.MedicineApp.Medicine"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Required"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.bilal.ShapeApp.Shape"/>
+</qualifiedTypeNameHistroy>
